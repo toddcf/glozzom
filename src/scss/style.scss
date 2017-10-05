@@ -1,3 +1,5 @@
+$icon-size: 55px;
+
 .navbar {
 
 	.nav-link {
@@ -40,5 +42,11 @@
 
 	background: url("../img/image3.jpg");
 	background-size: cover;
+	
+}
+
+.fa {
+
+	font-size: $icon-size;
 	
 }
