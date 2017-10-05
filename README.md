@@ -1,2 +1,3 @@
-# glozzom
-Mobile responsive Bootstrap 4 Beta sample project.
+# Glozzom
+
+Mobile responsive Bootstrap 4 Beta project.
