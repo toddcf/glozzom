@@ -142,10 +142,43 @@
 		</div>
 	</section>
 
+	<!-- VIDEO PLAY SECTION -->
+	<section id="video-play">
+		<div class="dark-overlay">
+			<div class="row">
+				<div class="col">
+					<div class="container p-5">
+						<a href="#" class="video" data-toggle="modal" data-target="#videoModal" data-video="https://www.youtube.com/embed/gDV-dOvqKzQ"> <!-- Added "embed/" instead of "watch?v=" in the URL. -->
+							<i class="fa fa-play"></i>
+						</a>
+						<h1>See What We Do</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- MODALS -->
+
+	<!-- Video Modal -->
+	<div class="modal fade" id="videoModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button class="close" data-dismiss="modal">
+						<span>&times;</span>
+					</button>
+					<iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
 </html>
