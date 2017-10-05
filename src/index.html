@@ -15,7 +15,8 @@
 
 </head>
 <body>
-
+	
+	<!-- NAV -->
 	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
 		<div class="container">
 			<a href="index.html" class="navbar-brand">Glozzom</a>
@@ -31,7 +32,53 @@
 			</div>
 		</div>
 	</nav>
-	
+
+	<!-- SHOWCASE SLIDER -->
+	<section id="showcase">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				
+				<!-- Carousel Item 1 -->
+				<div class="carousel-item carousel-image-1 active"> <!-- .carousel-image-1 is because we need a class to attach the background image to. .active is so this image displays upon loading. -->
+					<div class="container">
+						<div class="carousel-caption d-none d-sm-block text-right mb-5"> <!-- d-none is so the caption only shows on larger screens. -->
+							<h1 class="display-3">Heading One</h1>
+							<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus possimus voluptas at reprehenderit optio, consectetur doloremque officia nulla officiis, provident.</p>
+							<a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Carousel Item 2 -->
+				<div class="carousel-item carousel-image-2"> <!-- .carousel-image-1 is because we need a class to attach the background image to. -->
+					<div class="container">
+						<div class="carousel-caption d-none d-sm-block mb-5"> <!-- d-none is so the caption only shows on larger screens. -->
+							<h1 class="display-3">Heading Two</h1>
+							<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus possimus voluptas at reprehenderit optio, consectetur doloremque officia nulla officiis, provident.</p>
+							<a href="#" class="btn btn-primary btn-lg">Learn More</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Carousel Item 3 -->
+				<div class="carousel-item carousel-image-3"> <!-- .carousel-image-1 is because we need a class to attach the background image to. -->
+					<div class="container">
+						<div class="carousel-caption d-none d-sm-block text-right mb-5"> <!-- d-none is so the caption only shows on larger screens. -->
+							<h1 class="display-3">Heading Three</h1>
+							<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus possimus voluptas at reprehenderit optio, consectetur doloremque officia nulla officiis, provident.</p>
+							<a href="#" class="btn btn-success btn-lg">Learn Even More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.min.js"></script>
