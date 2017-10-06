@@ -70,3 +70,6 @@ footer#main-footer {
   color: #fff;
   border-bottom: 1px #eee solid;
   padding-top: 50px; }
+
+#about img {
+  margin-top: -50px; }
