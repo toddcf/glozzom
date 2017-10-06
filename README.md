@@ -11,3 +11,4 @@ Mobile responsive Bootstrap 4 Beta project.
 - SCSS
 - jQuery
 - Gulp
+- Lorem Pixel random image generator
