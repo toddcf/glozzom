@@ -1,15 +1,12 @@
 $icon-size: 55px;
 $dark-overlay: rgba(0, 0, 0, 0.7);
 
-body {
-
-	overflow-x: hidden; /* Gets rid of horizontal scroll bar. */
-
-}
+body { overflow-x: hidden; } /* Gets rid of horizontal scroll bar. */
 
 .navbar {
 
 	.nav-link {
+
 		font-size: 14px;
 		text-transform: uppercase;
 		padding-left: 1em !important;
@@ -17,19 +14,11 @@ body {
 
 	}
 
-	.nav-item.active {
-
-		border-left: #444 3px solid;
-
-	}
+	.nav-item.active { border-left: #444 3px solid; }
 
 }
 
-.carousel-item {
-
-	height: 450px;
-
-}
+.carousel-item { height: 450px; }
 
 .carousel-image-1 {
 
@@ -52,11 +41,7 @@ body {
 	
 }
 
-.fa {
-
-	font-size: $icon-size;
-
-}
+.fa { font-size: $icon-size; }
 
 #home-heading {
 
@@ -91,9 +76,8 @@ body {
 	background-position: 0 -300px;
 	text-align: center;
 	color: #fff;
-	a {
-		color: #fff;
-	}
+	
+	a { color: #fff; }
 
 }
 
@@ -116,20 +100,14 @@ footer#main-footer {
 
 }
 
-#about {
-
-	img {
-
-		margin-top: -50px;
-
-	}
-
-}
+#about { img { margin-top: -50px; } }
 
 #faq {
 
 	.card {
+		
 		border: #444;
+		
 		a {
 			color: #fff;
 			text-decoration: none;
@@ -138,9 +116,6 @@ footer#main-footer {
 	}
 
 	.card-body,
-	.card-header {
-
-		background: #333;
-	}
+	.card-header { background: #333; }
 
 }
